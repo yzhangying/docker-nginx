@@ -3,7 +3,6 @@
 #
 
 FROM            alpine:3.4
-MAINTAINER      Renyf <renyongfanemail@sina.com>
 
 RUN apk --update add nginx && \
     rm -rf /var/cache/apk/*
